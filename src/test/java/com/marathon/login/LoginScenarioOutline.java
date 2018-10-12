@@ -52,7 +52,7 @@ public class LoginScenarioOutline {
         //if this is found, login is successful else fail
         //driver.switchTo().frame("bottomFrame");
         try {
-            System.out.println(driver.getPageSource());
+            // System.out.println(driver.getPageSource());
             driver.findElement(By.className("ca-menu"));
             System.out.println("Login successful: Showing main menu");
         } catch (NoSuchElementException ex) {
