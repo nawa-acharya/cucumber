@@ -10,5 +10,5 @@ Feature: LoginScenarioOutline
     Examples:
       | username  | password  |
       | username1 | password1 |
-      | nawa      | nawa123   |
+      | nawa      | password2   |
       | username3 | password3 |
